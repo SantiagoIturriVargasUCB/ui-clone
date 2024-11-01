@@ -1,0 +1,43 @@
+/* About Us Section */
+.about-us {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #0c0e12;
+    padding: 3rem 2rem;
+    color: #f0b90b;
+    flex-wrap: wrap;
+}
+
+.about-content {
+    max-width: 500px;
+    margin: 1rem;
+    opacity: 0;
+    animation: fadeInLeft 1s ease forwards;
+    animation-delay: 0.6s;
+}
+
+.about-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-family: 'Jost', sans-serif;
+    color: #f0b90b;
+}
+
+.about-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    font-family: 'Roboto', sans-serif;
+    color: #f0b90b;
+    margin-bottom: 1rem;
+}
+
+.about-image {
+    max-width: 500px;
+    margin: 1rem;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 10px;
+}

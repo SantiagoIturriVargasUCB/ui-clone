@@ -1,0 +1,62 @@
+/* Talk to Us Section */
+.talk-to-us {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #0c0e12;
+    padding: 3rem 2rem;
+    color: #f0b90b;
+    flex-wrap: wrap;
+}
+
+.talk-content {
+    max-width: 500px;
+    margin: 1rem;
+    text-align: center;
+    opacity: 0;
+    animation: fadeInLeft 1s ease forwards;
+    animation-delay: 0.8s;
+}
+
+.talk-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-family: 'Jost', sans-serif;
+    color: #f0b90b;
+}
+
+.talk-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    font-family: 'Roboto', sans-serif;
+    color: #f0b90b;
+    margin-bottom: 1.5rem;
+}
+
+.talk-button {
+    background-color: #f0b90b;
+    color: #0c0e12;
+    padding: 0.75rem 2rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-family: 'Jost', sans-serif;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.talk-button:hover {
+    background-color: #d1a40a;
+}
+
+.talk-image {
+    max-width: 500px;
+    margin: 1rem;
+    text-align: center;
+}
+
+.talk-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

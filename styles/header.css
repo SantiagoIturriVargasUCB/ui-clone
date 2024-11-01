@@ -1,0 +1,78 @@
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    z-index: 1;
+    background: transparent;
+}
+
+.logo img {
+    width: 120px;
+    animation: bounce 1.5s infinite;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #f0b90b;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Jost', sans-serif;
+    transition: color 0.3s ease;
+}
+
+/* Menu Toggle for Mobile */
+.menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #f0b90b;
+}
+
+/* Responsive Menu */
+@media (max-width: 768px) {
+    header nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        background-color: #0c0e12;
+        text-align: center;
+        padding: 1rem 0;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    #menu-toggle:checked ~ nav ul {
+        display: flex;
+    }
+
+    .menu-open-icon {
+        display: inline;
+    }
+
+    #menu-toggle:checked + .menu-icon .menu-open-icon {
+        display: none;
+    }
+
+    #menu-toggle:checked + .menu-icon .menu-close-icon {
+        display: inline;
+    }
+}
