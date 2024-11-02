@@ -49,3 +49,21 @@
     transform: scale(1.05);
     background-color: #d1a40a;
 }
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 3rem;
+    }
+    .hero h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+    .hero h2 {
+        font-size: 1.2rem;
+    }
+}

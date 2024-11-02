@@ -64,3 +64,16 @@ body::before {
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-5px); }
 }
+
+/* Responsive media queries */
+@media (max-width: 768px) {
+    body {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 0.8rem;
+    }
+}

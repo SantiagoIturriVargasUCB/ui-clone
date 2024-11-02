@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: space-around;
     background-color: #0c0e12;
-    padding: 3rem 2rem;
+    padding: 2rem;
     color: #f0b90b;
     flex-wrap: wrap;
 }
@@ -58,4 +58,15 @@
 .talk-image img {
     width: 100%;
     border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .talk-to-us {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .talk-content {
+        max-width: 90%;
+    }
 }

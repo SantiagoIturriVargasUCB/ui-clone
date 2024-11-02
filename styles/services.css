@@ -46,3 +46,15 @@
     color: #f0b90b;
     font-family: 'Roboto', sans-serif;
 }
+
+@media (max-width: 768px) {
+    .service {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .service {
+        width: 100%;
+    }
+}
