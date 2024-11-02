@@ -42,15 +42,15 @@ header nav ul li a {
     color: #f0b90b;
 }
 
-/* Responsive Menu for iPhone 14 and iPad */
+/* Responsive Menu */
 @media (max-width: 820px) {
     header nav ul {
         display: none;
         flex-direction: column;
         position: absolute;
         top: 60px;
-        right: 0;
-        width: 100%;
+        right: 0; /* Posicionado al borde derecho */
+        width: 50%; /* Ajustado para no ocupar toda la pantalla */
         background-color: #0c0e12;
         text-align: center;
         padding: 1rem 0;
