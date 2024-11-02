@@ -42,8 +42,8 @@ header nav ul li a {
     color: #f0b90b;
 }
 
-/* Responsive Menu */
-@media (max-width: 768px) {
+/* Responsive Menu for iPhone 14 and iPad */
+@media (max-width: 820px) {
     header nav ul {
         display: none;
         flex-direction: column;
@@ -64,6 +64,7 @@ header nav ul li a {
         display: flex;
     }
 
+    /* Iconos de abrir y cerrar */
     .menu-open-icon {
         display: inline;
     }
@@ -74,5 +75,40 @@ header nav ul li a {
 
     #menu-toggle:checked + .menu-icon .menu-close-icon {
         display: inline;
+    }
+}
+
+/* Especificaciones para iPhone 14 (390px) */
+@media (max-width: 390px) {
+    .menu-icon {
+        font-size: 1.8rem;
+    }
+
+    .logo img {
+        width: 100px;
+    }
+}
+
+/* Especificaciones para iPad (768px - 820px) */
+@media (min-width: 768px) and (max-width: 820px) {
+    .menu-icon {
+        font-size: 2rem;
+    }
+
+    .logo img {
+        width: 110px;
+    }
+
+    header nav ul {
+        flex-direction: row; /* Mantiene el menú horizontal en iPad */
+        display: flex;
+        position: static;
+        background-color: transparent;
+        width: auto;
+        padding: 0;
+    }
+
+    .menu-icon {
+        display: none;
     }
 }

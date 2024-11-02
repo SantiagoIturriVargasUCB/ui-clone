@@ -70,3 +70,27 @@
         max-width: 90%;
     }
 }
+
+/* About Us y Talk to Us en iPhone 14 */
+@media (max-width: 390px) {
+    .talk-to-us {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .talk-content, .talk-image {
+        max-width: 100%;
+    }
+}
+
+/* About Us y Talk to Us en iPad */
+@media (min-width: 768px) and (max-width: 820px) {
+    .talk-to-us {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .talk-content, .talk-image {
+        max-width: 45%;
+    }
+}

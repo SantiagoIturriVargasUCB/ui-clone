@@ -58,3 +58,17 @@
         width: 100%;
     }
 }
+
+/* Services Section en iPhone 14 */
+@media (max-width: 390px) {
+    .service {
+        width: 100%;
+    }
+}
+
+/* Services Section en iPad */
+@media (min-width: 768px) and (max-width: 820px) {
+    .service {
+        width: 45%;
+    }
+}

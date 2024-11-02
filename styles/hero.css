@@ -50,20 +50,36 @@
     background-color: #d1a40a;
 }
 
-@media (max-width: 768px) {
+/* Responsividad para iPad (768px - 820px) */
+@media (min-width: 768px) and (max-width: 820px) {
+    .hero {
+        height: 75vh; /* Ajuste para iPad */
+    }
     .hero h1 {
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
     .hero h2 {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
+    }
+    .hero .btn {
+        padding: 0.65rem 1.8rem;
+        font-size: 1rem;
     }
 }
 
-@media (max-width: 480px) {
+/* Responsividad para iPhone 14 (390px) */
+@media (max-width: 390px) {
+    .hero {
+        height: 80vh; /* Ajuste para iPhone 14 */
+    }
     .hero h1 {
         font-size: 2.5rem;
     }
     .hero h2 {
         font-size: 1.2rem;
+    }
+    .hero .btn {
+        padding: 0.5rem 1.5rem;
+        font-size: 0.9rem;
     }
 }
