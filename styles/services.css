@@ -62,7 +62,7 @@
 /* Services Section en iPhone 14 */
 @media (max-width: 390px) {
     .service {
-        width: 80%;
+        width: 50%;
     }
 }
 
