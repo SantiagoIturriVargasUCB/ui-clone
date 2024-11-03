@@ -57,6 +57,7 @@
 .talk-image img {
     width: 100%;
     border-radius: 10px;
+    animation: fadeInLeft 1s ease forwards;
 }
 
 @media (max-width: 768px) {
