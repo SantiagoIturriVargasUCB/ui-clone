@@ -1,9 +1,8 @@
-/* Contact Section */
 .contact {
     max-width: 600px;
     margin: 3rem auto;
     padding: 2rem;
-    background-color: #0c0e12; /* Fondo oscuro para el formulario */
+    background-color: #0c0e12;
     border-radius: 10px;
     color: #f0b90b;
     font-family: 'Roboto', sans-serif;
@@ -53,7 +52,7 @@
 }
 
 .contact textarea {
-    resize: vertical; /* Permitir ajuste vertical del tamaño del textarea */
+    resize: vertical; 
     min-height: 150px;
 }
 
@@ -71,10 +70,9 @@
 
 .contact button[type="submit"]:hover {
     background-color: #d1a40a;
-    transform: scale(1.05); /* Agrandar ligeramente en hover */
+    transform: scale(1.05); 
 }
 
-/* Responsivo para pantallas más pequeñas */
 @media (max-width: 480px) {
     .contact {
         padding: 1.5rem;
@@ -85,7 +83,7 @@
     }
 
     .contact button[type="submit"] {
-        width: 100%; /* Botón de envío en ancho completo en pantallas pequeñas */
+        width: 100%; 
         padding: 0.75rem;
     }
 }
